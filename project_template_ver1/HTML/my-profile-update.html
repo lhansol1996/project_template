@@ -215,7 +215,7 @@
 								</div>
 								<ul>
 									<li><a href="my-profile.html"><i class="sl sl-icon-user"></i> My Profile</a></li>
-									<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Bookmarks</a></li>
+									<li><a href="my-partys.html"><i class="sl sl-icon-star"></i> Bookmarks</a></li>
 									<li><a href="my-properties.html"><i class="sl sl-icon-docs"></i> My Properties</a>
 									</li>
 									<li><a href="index.html"><i class="sl sl-icon-power"></i> Log Out</a></li>
@@ -275,9 +275,11 @@
 
 							<ul class="my-account-nav">
 								<li class="sub-nav-title">Manage Account</li>
-								<li><a href="my-profile.html" class="current"><i class="sl sl-icon-user"></i> My
+								<li><a href="my-profile-update.html" class="current"><i class="sl sl-icon-user"></i> My
 										Profile</a></li>
-								<li><a href="my-bookmarks.html"><i class="sl sl-icon-star"></i> Bookmarked Listings</a>
+								<li><a href="my-partys.html"><i class="sl sl-icon-star"></i> 참가한 파티</a>
+								</li>
+								<li><a href="party-make.html"><i class="fa fa-legal"></i> 파티만들기</a>
 								</li>
 							</ul>
 
@@ -300,12 +302,17 @@
 						<div class="col-md-8 my-profile">
 							<h4 class="margin-top-0 margin-bottom-30">My Account</h4>
 
-							<label>Your NickName</label>
+							<label>Your ID</label>
 							<input value="도라에몽" type="text">
 
 							<label>Your InGameNickName</label>
-							<div class="main-search-input larger-input">
-								<input type="text" class="form-control" placeholder="yourIngameNickname" aria-label="yourIngameNickname">
+							<div class="main-search-box">
+								
+								<!-- Main Search Input -->
+								<div class="main-search-input larger-input">
+									<input type="text" class="ico-01" id="autocomplete-input" placeholder="닉네임 검색" value=""/>
+									<button class="button">Search</button>
+								</div>
 							</div>
 
 							<label>Your Most 3 Character</label>

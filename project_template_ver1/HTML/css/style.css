@@ -2289,7 +2289,7 @@ a.adv-search-btn.active i.fa.fa-caret-up { transform: rotate(-540deg); }
 /* Main input + button alignment */
 
 .top-search-input{
-	
+	width: 80%;
 	position: relative;
 	margin-bottom: 18px;
 	display: flex;
@@ -4389,10 +4389,9 @@ section.fullwidth.border-bottom { border-bottom: 1px solid #e4e4e4;}
 
 /* back to listings button */
 .back-to-listings {
-	height: 60px;
-	width: 60px;
-	background-color: #eaeaea;
-	color: #a0a0a0;
+	width: 100px;
+	background-color: #4487eb;
+	color: rgb(250, 249, 249);
 	border-radius: 3px;
 	display: inline-block;
 	float: left;
@@ -4403,7 +4402,7 @@ section.fullwidth.border-bottom { border-bottom: 1px solid #e4e4e4;}
 	transition: all 0.4s;
 	position: absolute;
 	top: 50%;
-	left: 15px;
+	right: 50px;
 	margin-top: -5px;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -4411,12 +4410,12 @@ section.fullwidth.border-bottom { border-bottom: 1px solid #e4e4e4;}
 	transform: translateY(-50%);
 }
 
+
+
 .back-to-listings:before {
 	font-family: "FontAwesome";
-	content: "\f104";
-	font-size: 36px;
+	font-size: 40px;
 	line-height: 58px;
-	left: -1px;
 	position: relative;
 }
 
